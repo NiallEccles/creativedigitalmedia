@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Creative Digital Media</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+  <!-- custom stylesheets -->
+  <link rel="stylesheet" href="css/creativestyle.css">
+  <link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" type="image/png" href="images/fav.png"/>
+
+</head>
+<body>
+
+  <!-- page: home -->
+  <section id="blog" data-role="page" data-title="Creative Digital Media">
+    <header data-theme="a" data-role="header" data-position="fixed" data-tap-toggle="false">
+      <img class="main" src="images/cdm_logo.png" style="width:60px; display:block; margin:auto; padding:10px;" >
+      <a href="index.html" class="ui-btn-left ui-btn ui-btn-inline
+          ui-btn-icon-notext ui-mini ui-corner-all
+            ui-icon-home">Home</a>
+      <a href="#" class="ui-btn-right ui-btn ui-btn-inline
+          ui-btn-icon-notext ui-mini ui-corner-all
+          ui-icon-info">Info</a>
+    </header><!-- header -->
+    <div data-role="content" id="postlist"></div><!-- content -->
+    <footer data-theme="a" data-role="footer" data-position="fixed" data-tap-toggle="false">
+      <nav data-role="navbar">
+        <ul>
+          <li><a href="#" class="ui-btn ui-icon-home ui-btn-icon-top lborder">Home</a></li>
+          <li><a href="#" class="ui-btn ui-icon-edit ui-btn-icon-top lborder">Page</a></li>
+          <li><a href="#" class="ui-btn ui-icon-edit ui-btn-icon-top lborder">Other Page</a></li>
+          <li><a href="#" class="ui-btn ui-icon-edit ui-btn-icon-top lborder">Another Page</a></li>
+          <li><a href="#" class="ui-btn ui-icon-edit ui-btn-icon-top lborder">Last Page</a></li>
+        </ul>
+      </nav>
+    </footer><!-- footer -->
+  </section><!-- home page -->
+
+  <!-- page: blogposts -->
+  <section data-role="page" id="blogpost">
+  <header data-theme="a" data-role="header" data-position="fixed" data-tap-toggle="false">
+      <h1>header</h1>
+      <a href="#blog" class="ui-btn-left ui-btn ui-btn-inline
+          ui-btn-icon-notext ui-mini ui-corner-all
+            ui-icon-home">Home</a>
+      <a href="#" class="ui-btn-right ui-btn ui-btn-inline
+          ui-btn-icon-notext ui-mini ui-corner-all
+          ui-icon-info">Info</a>
+    </header><!-- header -->
+    <div data-role="content">
+      <div id="mypost"></div>
+    </div>
+    <footer data-theme="a" data-role="footer" data-position="fixed" data-tap-toggle="false">
+      <nav data-role="navbar">
+        <ul>
+          <li><a href="#blog" class="ui-btn ui-icon-home ui-btn-icon-top">Home</a></li>
+          <li><a href="#" class="ui-btn ui-icon-edit ui-btn-icon-top">Page</a></li>
+          <li><a href="#" class="ui-btn ui-icon-edit ui-btn-icon-top">Other Page</a></li>
+          <li><a href="#" class="ui-btn ui-icon-edit ui-btn-icon-top">Another Page</a></li>
+          <li><a href="#" class="ui-btn ui-icon-edit ui-btn-icon-top">Last Page</a></li>
+        </ul>
+      </nav>
+    </footer><!-- footer -->
+  </section>
+
+<script src="js/script.js"></script>
+<script src="http://www.creativedigitalmedia.ie/index.php/category/creativedigitalmedia/?json=1&callback=listPosts"></script>
+</body>
+</html>

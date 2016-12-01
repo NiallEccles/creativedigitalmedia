@@ -1,0 +1,30 @@
+body{
+  background-color:#1b2022;
+}
+
+.ui-bar-a{
+  background-color: #1b2022;
+}
+
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn{
+  background-color: #1b2022;
+  text-shadow: none;
+  color:#fff;
+}
+
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn.lborder{
+  border-left:1px solid #2b2b2b;
+}
+
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn.lborder:hover{
+  text-shadow: none;
+}
+
+.ui-bar-a{
+  border:none;
+}
+
+.ui-page-theme-a .ui-btn{
+  background-color:fff;
+  color:#1d1d1d;
+}
