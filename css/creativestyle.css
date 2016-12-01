@@ -297,9 +297,9 @@ html .ui-bar-a .ui-btn:visited,
 html .ui-body-a .ui-btn:visited,
 html body .ui-group-theme-a .ui-btn:visited,
 html head + body .ui-btn.ui-btn-a:visited {
-	background-color: #fff /*{a-bup-background-color}*/;
+	background-color: #1b2022 /*{a-bup-background-color}*/;
 	border-color: #dddddd /*{a-bup-border}*/;
-	color: #1d1d1d /*{a-bup-color}*/;
+	color: #fff /*{a-bup-color}*/;
 	text-shadow:  /*{a-bup-shadow-x}*/  /*{a-bup-shadow-y}*/  /*{a-bup-shadow-radius}*/  /*{a-bup-shadow-color}*/;
 }
 /* Button hover */

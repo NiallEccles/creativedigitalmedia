@@ -5,15 +5,18 @@ body{
 .ui-bar-a{
   background-color: #1b2022;
 }
-
 .ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn{
-  background-color: #1b2022;
+
   text-shadow: none;
   color:#fff;
+  background-color:#1b2022;
+  border-left:1px solid #2b2b2b;
 }
 
-.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn.lborder{
-  border-left:1px solid #2b2b2b;
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn .lborder{
+  text-shadow: none;
+  background-color: #fff;
+  color:#1d1d1d;
 }
 
 .ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn.lborder:hover{
@@ -24,7 +27,7 @@ body{
   border:none;
 }
 
-.ui-page-theme-a .ui-btn{
+.ui-page-theme-a .ui-btna:visited{
   background-color:fff;
   color:#1d1d1d;
 }
